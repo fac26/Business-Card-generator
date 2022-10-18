@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Business Card Auto generator
     </title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
@@ -16,9 +17,24 @@
     <main>
 <p>A modern business card with an image as a background awaits you.<br>
  All you have to do is insert your company's name and email. Let the rest to us.</p>
+<p>Please fill out this form with the required information</p>
+    <form action=' '>
+      <fieldset>
+        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
+        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>
+        <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
+        <label for="company-name">Enter the name of your company<input id="company-name" type="text" required /></label>
+      </fieldset>
+        <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
     </main>
     <script>
       
 </script>
   </body>
 </html>
+
+
+    
