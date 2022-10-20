@@ -1,40 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Business Card Auto generator
-    </title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Business Card generator</h1>
-      <h2> Welcome to our fully-automatic business card generator.</h2>
-   
-    </header>
-    <main>
-<p>A modern business card with an image as a background awaits you.<br>
- All you have to do is insert your company's name and email. Let the rest to us.</p>
-<p>Please fill out this form with the required information</p>
-    <form action=' '>
-      <fieldset>
-        <label for="first-name">Enter Your First Name: <input id="first-name" type="text" required /></label>
-        <label for="last-name">Enter Your Last Name: <input id="last-name" type="text" required /></label>
-        <label for="email">Enter Your Email: <input id="email" type="email" required /></label>
-        <label for="company-name">Enter the name of your company<input id="company-name" type="text" required /></label>
-      </fieldset>
-        <input type="submit" value="Submit" />
-    </form>
-  </body>
-</html>
-    </main>
-    <script>
-      
-</script>
-  </body>
-</html>
+<html>
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Business card generator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
 
-    
+<body>
+  <div id="app">
+  <h2 id="title">Business Card Generator</h2>
+    <div id="appinner">
+<!--Form section-->
+  <form id="form">
+  <label id="namelabel" for="name">Business Name:</label>
+  <input id="name" />
+    <br>
+     <label id="emaillabel" for="email">Business Email:</label>
+  <input id="email" type="email" />
+<br>
+  <button id="submit" type="submit">Submit</button>
+</form>
+  <!--Output section-->
+<div id="erroroutput"></div>
+  <div class="container">
+  <img id="x4" src="" alt="background">
+  <div class="bottom-left" id="x3"></div>
+  <div class="top-left" id="x"></div>
+  <div class="top-right"></div>
+  <div class="bottom-right"></div>
+  <div class="centered" id="x2"></div>
+</div>
+    </div>
+    </div>
+  <script src="script.js"></script>
+
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
