@@ -1,6 +1,6 @@
-# Business Card generator
+# Business Card generator:chart_with_upwards_trend: :bowtie:
 -------------------------
- ### A free generator of business cards:chart_with_upwards_trend: :bowtie:
+ ### A free generator of business cards
  
 You can watch a slide-presentation of our work in this project [here](https://hackmd.io/@kobcat/HyqOF0HQo#/)
 
