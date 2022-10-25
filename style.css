@@ -82,6 +82,13 @@ input:focus {
   background-color: #363434;
   color: #62929a;
 }
+#name:hover{
+  background-color: #62929a;
+}
+
+#email:hover{
+  background-color: #62929a;
+}
 
 #erroroutput{
     margin: auto;
