@@ -13,6 +13,6 @@ This project is useful ... for the promotion of your company in line with Corpor
 
 Users can get started with the project ... by simply submitting their business name and email in the page Form.
 
-Who maintains and contributes to the project ... [DFLLinton](  ) and [konstantinakatmada](https://github.com/konstantinakatmada/)
+Who maintains and contributes to the project ... [DFLLinton]( https://github.com/DFLLinton ) and [konstantinakatmada](https://github.com/konstantinakatmada/)
 
 
