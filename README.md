@@ -4,6 +4,8 @@
  
 You can watch a slide-presentation of our work in this project [here](https://hackmd.io/@kobcat/HyqOF0HQo#/)
 
+</br> Click to see the website [here](https://fac26.github.io/Business-Card-generator/)
+
 ---------------------------
 This project generates business cards with an image background and a description of what your business does from Corporate BS Buzzword generator.
 
@@ -13,4 +15,4 @@ Users can get started with the project... by simply submitting their business na
 
 Who maintains and contributes to the project ... DFLLinton and konstantinakatmada.
 
-</br> Click to see the website [here](https://fac26.github.io/Business-Card-generator/)
+
