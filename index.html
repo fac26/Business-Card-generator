@@ -3,43 +3,55 @@
 
 <head>
   <meta charset="utf-8">
+
   <meta name="viewport" content="width=device-width">
   <title>Business card generator</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div id="app">
-  <h2 id="title">Business Card Generator</h2>
-    <div id="appinner">
-<!--Form section-->
-  <form id="form">
-  <label id="namelabel" for="name">Business Name:</label>
-  <input id="name" required />
-    <br>
-     <label id="emaillabel" for="email">Business Email:</label>
-  <input id="email" type="email" required />
-<br>
-  <button id="submit" type="submit">Submit</button>
-</form>
-  <!--Output section-->
-<div id="erroroutput"></div>
-  <div class="container">
-  <img id="x4" src="" alt="background">
-  <div class="bottom-left" id="x3"></div>
-  <div class="top-left" id="x"></div>
-  <div class="top-right"></div>
-  <div class="bottom-right"></div>
-  <div class="centered" id="x2"></div>
-</div>
+  <div id="app-container">
+    <div id="app">
+      <h2 id="title">Business Card Generator</h2>
+      <div id="appinner">
+        <!--Form section-->
+        <form id="form">
+          <label id="namelabel" for="name">Business Name:</label>
+          <input id="name" required />
+          <br>
+          <label id="sectorlabel" for="sector">Business Sector:</label>
+          <select id="sector">
+            <option value="Education">Education</option>
+            <option value="Law">Law</option>
+            <option value="Information Technology">Information Technology</option>
+            <option value="Finance and Accounting">Finance</option>
+            <option value="Healthcare">Healthcare</option>
+            <option value="Entertainment">Entertainment</option>
+            <option value="Construction">Costruction</option>
+          </select>
+          <br>
+          <label id="emaillabel" for="email">Business Email:</label>
+          <input id="email" type="email" required />
+          <br>
+          <button id="submit" type="submit">Submit</button>
+        </form>
+        <!--Output section-->
+        <div id="erroroutput"></div>
+        <div class="container">
+          <img id="x4" src="" alt="background" width="350" height="200">
+          <div class="bottom-left" id="x3"></div>
+          <div class="top-left" id="x"></div>
+          <div class="top-right"></div>
+          <div class="bottom-right"></div>
+          <div class="centered" id="x2"></div>
+        </div>
+      </div>
     </div>
-    </div>
+  </div>
   <script src="script.js"></script>
-
-  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
 </body>
 
 </html>
